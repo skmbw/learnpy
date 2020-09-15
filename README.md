@@ -27,6 +27,7 @@ rosrun tf2_web_republisher tf2_web_republisher # 如果需要tf2的话
 * rosbridge使用json文本协议，所以传输图片或者视频，是一个问题。需要将图片压缩成字符串，性能损失较大
 * redis的pubsub性能和rosbridge不相上下，是可以使用的，稳定性也是有保障的
 * redis的pubsub也是传输的str，所以有和rosbridge json协议，相同的问题，不过如果使用opencv抓取数据，是否可以避免这个问题，待确认？
+* rosbridge提供了png格式的图片压缩，只是减少了传输的数据量
 
 # 一些问题
 ### 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte
