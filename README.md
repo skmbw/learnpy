@@ -1,10 +1,10 @@
 # Python Learning
 
 # 安装依赖库
-* 安装客户端依赖
+* 安装客户端依赖，支持python2或python3
 ```shell script
 sudo pip3 install redis 
-sudo pip3 install rosbridge_server
+sudo pip3 install roslibpy
 ```
 
 # 运行环境
