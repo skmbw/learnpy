@@ -3,7 +3,7 @@
 # 安装依赖库
 * 安装客户端依赖，支持python2或python3
 ```shell script
-sudo pip3 install redis 
+sudo pip3 install redis # redis不是rosbridge的依赖，只是项目中所使用
 sudo pip3 install roslibpy
 ```
 
